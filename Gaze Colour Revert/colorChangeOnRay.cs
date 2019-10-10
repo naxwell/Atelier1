@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//PUT THIS ON THE OBJECT YOU WANT TO CHANGE COLOUR
 public class colorChangeOnRay : MonoBehaviour
 {
     public lookingAt lookingAt; //reference our lookingAt script
