@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//PUT THIS ON YOUR CAMERA
+
 public class lookingAt : MonoBehaviour
 {
 
