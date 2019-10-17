@@ -19,7 +19,7 @@ public class colorChangeOnRay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(lookingAt.raycasted = this.gameObject) // this is the reference to the public variable we created in the other script. it is what we the player is currently looking at
+       if(lookingAt.raycasted == this.gameObject) // this is the reference to the public variable we created in the other script. it is what we the player is currently looking at
         {                                        // we want to check if what we are looking at is this gameObject
             Rend.material.SetColor("_Color", lookedAt); // if it is, change it to our lookedAt colour
         } else
