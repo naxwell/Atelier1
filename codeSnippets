@@ -2,6 +2,8 @@
 
   private void OnCollisionEnter(Collision collision)
     {
+        
+        //Put this where you want to trigger the vibration to start, in this example it vibrates on a collision
         StartCoroutine(Vibrate());
     }
 
